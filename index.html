@@ -1,15 +1,89 @@
-<h1> Hello Dosto </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Udann Batch 11</title>
 
-<h2> Aapka swagat hain udann batch 11</h2>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
 
-BOOM!
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      overflow: hidden;
+    }
 
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.12);
+      padding: 50px;
+      border-radius: 25px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      color: white;
+      animation: float 3s ease-in-out infinite;
+    }
 
-This is the new feature
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 15px;
+      color: #ffd700;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    }
 
-New feature
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 25px;
+      font-weight: 300;
+    }
 
-I have fixed this
+    .boom {
+      display: inline-block;
+      padding: 15px 35px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(45deg, #ff416c, #ff4b2b);
+      border-radius: 50px;
+      box-shadow: 0 5px 15px rgba(255, 75, 43, 0.5);
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
 
-adding cool featire
-adding cool feature
+    .boom:hover {
+      transform: scale(1.1);
+      box-shadow: 0 10px 25px rgba(255, 75, 43, 0.8);
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>✨ Hello Dosto ✨</h1>
+    <h2>Aapka Swagat Hai Udann Batch 11 Mein 🚀</h2>
+    <div class="boom">💥 BOOM! 💥</div>
+  </div>
+
+</body>
+</html>
